@@ -23,6 +23,7 @@ module Assistant
     def function_classes
       [
         Function::GetTransactions,
+        Function::CategorizeTransactions,
         Function::GetAccounts,
         Function::GetHoldings,
         Function::GetBalanceSheet,
